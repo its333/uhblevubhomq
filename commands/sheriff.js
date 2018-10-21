@@ -11,6 +11,8 @@ module.exports.run = async (bot, message, args) => {
 
   var groupId = 4311787;
   var setRank = 2;
+  
+  var userName = args[0];
 
   var joinOptions = {
     group: groupId,
