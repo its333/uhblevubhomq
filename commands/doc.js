@@ -8,6 +8,8 @@ module.exports.run = async (bot, message, args) => {
     message.channel.send("Usage: !doc {username}");
     return;
   };
+  
+  var userName = args[0];
 
   var Options = {
     group: 4433455,
