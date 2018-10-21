@@ -1,4 +1,4 @@
 {
-"token": process.evn.token,
+"token": 0,
 "prefix": "!"
 }
