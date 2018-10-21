@@ -35,7 +35,7 @@ module.exports.run = async (bot, message, args) => {
       rbx.setRank({
         group: groupId,
         target: userId,
-        rank: 3
+        rank: setRank
       })
       .then(function (newRole) {
         message.channel.send('sucessfully accepted');
