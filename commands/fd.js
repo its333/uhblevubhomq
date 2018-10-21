@@ -9,7 +9,7 @@ module.exports.run = async (bot, message, args) => {
     return;
   };
 
-  var groupId = fd;
+  var groupId = 4311117;
   var setRank = 2;
 
   var joinOptions = {
